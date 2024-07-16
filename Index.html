@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div style="background-image: url('./public/img9.jpg'); background-size: cover; background-position: center; height: 600px;" >
+        <header class="flex p-3 justify-between mx-5">
+            <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div class="flex gap-2">
+                <div class="mt-2">
+                    <img src="public/img15.png">
+                    <img src="public/img15.png">
+                </div>
+                <h2 class="text-red-600 font-bold text-3xl">MY HOME</h2>
+            </div>
+            <div>
+            <div
+                class="nav-links duration-500 md:static absolute text-white font-bold md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Products</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Solution</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Resource</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Developers</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </div>
+    </nav>
+        </header>
+        <div class="flex justify-center items-center h-full" style="height: 100%;">
+            <div class="text-center ">
+                <h1 class="text-white font-bold lg:text-5xl md:text-3xl sm:text-3xl text-3xl">LET US FIND YOUR <br>PERFECT APARTMENT</h1>
+                <div><br>
+                    <P class="text-white lg:text-xl">A elementum adipiscing quam non quis parturient ante eros quam <br>a vitae habitant dui suspendisse.</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+  <!-- Features Section -->
+  <div class="container mx-auto px-4">
+    <div class="flex justify-center items-center min-h-[10vh]">
+        <h4 class="text-2xl font-semibold">Available Properties</h4>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-center max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique cumque, alias
+            praesentium nemo libero!</p>
+    </div>
+</div>
+
+<!-- Image Container Section -->
+<div class="container mx-auto px-4 mt-5">
+    <div class="relative mb-5 flex justify-center items-center">
+        <img src="public/img15.png" alt="Description of image" class="lg:w-34 md:w-34 sm:w-28 ">
+    </div>
+</div>
+<!-- Second Div: Grid of Images -->
+<div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
+        <div class="relative">
+            <img src="public/img1.jpg" alt="Image 1" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img2.jpg" alt="Image 2" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img3.jpg" alt="Image 3" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img4.jpg" alt="Image 4" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
+        <div class="relative">
+            <img src="public/img5.jpg" alt="Image 5" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img6.jpg" alt="Image 6" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img7.jpg" alt="Image 7" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="public/img8.jpg" alt="Image 8" class="w-full h-auto">
+            <div class="absolute bottom-0 bg-gray-800 bg-opacity-50 text-white p-2 w-full">
+                <h6 class="font-semibold">Novin</h6>
+                <h5 class="font-bold">$ 1,440 +mo.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Button Section -->
+<div class="container mx-auto px-4 mb-8">
+    <div class="flex justify-center items-center min-h-[10vh]">
+        <button type="button" class="btn bg-red-600 text-white rounded-full py-2 px-6 hover:bg-red-700">See all Properties</button>
+    </div>
+</div>
+
+<!-- Third Div: Single Image -->
+<div style="background-image: url('./public/img10.jpg'); background-size: cover; background-position: center; height: 400px;" >
+        <div class="flex justify-center items-center h-full w-full">
+            <div class=" flex flex-col  " >
+                <p class="text-4xl font-bold text-white">Do not miss</p>
+                <p class="text-4xl font-bold text-white">Our Special Offer</p>
+                <p class="text-white mt-4 md:text-xl sm:text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod ipsa ad minus qui deserunt nisi reprehenderit fugiat. Deleniti veniam minima, atque sunt eos voluptatibus, a reprehenderit est id ipsa totam.</p>
+            </div>
+        </div>
+</div>
+
+
+<!-- Features Section -->
+<div class="container mx-auto px-4 mt-8">
+    <div class="flex justify-center items-center min-h-[10vh]">
+        <h4 class="text-2xl font-semibold">Our Features</h4>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-center max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique cumque, alias praesentium nemo libero!</p>
+    </div>
+</div>
+
+<!-- Logos Section -->
+<div class="container mx-auto px-4 mt-4">
+    <div class="flex justify-center items-center min-h-[4vh] mb-4">
+        <img src="public/img15.png" alt="Logo 1" class="lg:w-34 md:w-34 sm:w-28 ">
+    </div>
+</div>
+
+<div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="p-3 flex gap-4">
+            <img src="public/img13.jpg" alt="Logo 1" class="w-20 sm:w-17">
+            <div>
+                <h4 class="text-xl font-semibold mb-3">Moneyback Guarantee</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac neque</p>
+            </div>
+        </div>
+        <div class="p-3 flex gap-4">
+            <img src="public/img12.jpg" alt="Logo 2" class="w-20 sm:w-17">
+            <div>
+                <h4 class="text-xl font-semibold mb-3">Good Neighbours</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac neque</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mx-auto px-4 mt-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="p-3 flex gap-4">
+            <img src="public/img14.jpg" alt="Logo 3" class="w-20 sm:w-17">
+            <div>
+                <h4 class="text-xl font-semibold mb-3">Newest Security System</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac neque</p>
+            </div>
+        </div>
+        <div class="p-3 flex gap-4">
+            <img src="public/img11.jpg" alt="Logo 4" class="w-20 sm:w-17">
+            <div>
+                <h4 class="text-xl font-semibold mb-3">Health & Social Care</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac neque</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="mt-6">
+    <img src="public/img20.png" class="w-full h-22">
+</div>
+
+<!-- Testimonials Section -->
+<div class="container mx-auto px-4 mt-10">
+    <div class="flex justify-center items-center min-h-[10vh]">
+        <h4 class="text-2xl font-semibold">Testimonials</h4>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-center max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique cumque, alias praesentium nemo libero!</p>
+    </div>
+</div>
+
+<!-- Logos Section -->
+<div class="container mx-auto px-4 mt-5">
+    <div class="flex justify-center items-center min-h-[4vh]">
+        <img src="public/img15.png" alt="Logo 1" class="lg:w-34 md:w-34 sm:w-28">
+    </div>
+</div>
+
+<div class="flex justify-center items-center gap-4 mt-6">
+    <img src="public/img10.png" class="h-30" alt="">
+    <p class="font-bold">
+        Margaux <br>Lafleur
+    </p>
+</div>
+
+  <script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleMenu(e){
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('top-[9%]')
+    }
+</script>
+</body>
+</html>
